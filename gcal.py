@@ -5,8 +5,8 @@ import datetime
 import pytz
 
 SCOPES = ['https://www.googleapis.com/auth/calendar']
-SERVICE_ACCOUNT_FILE = 'service-account.json'
-CALENDAR_ID = '50a0d2fb5fda99971edb151ab92ac2985b4b2e400011fce369609079673289eb@group.calendar.google.com' # or the calendar ID of the calendar you want to add the event to
+SERVICE_ACCOUNT_FILE = 'service account json location'
+CALENDAR_ID = 'your calendar id' # or the calendar ID of the calendar you want to add the event to
 
 creds = None
 try:
